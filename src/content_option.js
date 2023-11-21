@@ -16,33 +16,33 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my self",
+    aboutme: "I am an intern at the company Inetum, where I specialize in Java development. Additionally, I have the opportunity to work on projects for the Ministry of Justice. This experience allows me to apply my programming skills in a real-world context, contributing to the development of solutions that support the ministry's initiatives.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Dev web",
+        where: "Inetum",
+        date: "2022",
+    },
+    {
+        jobtitle: "Dev web",
+        where: "Inetum",
+        date: "2021",
+    },
+    {
+        jobtitle: "Dev web",
+        where: "Totem numerique",
         date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Java",
+        value: 80,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Python",
+        value: 75,
     },
     {
         name: "Javascript",
@@ -50,27 +50,27 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 85,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Angular",
+        value: 60,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+    title: "Web Development",
+    description: "Specializing in creating dynamic and interactive web applications using the latest technologies and best practices in the field.",
+},
+{
+    title: "Mobile App Development",
+    description: "Building cross-platform mobile applications with a focus on user experience and performance, ensuring seamless functionality across devices.",
+},
+{
+    title: "Custom Software Solutions",
+    description: "Developing tailor-made software solutions to address specific business needs, integrating innovative technologies for optimal performance and efficiency.",
+}];
+
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
@@ -136,9 +136,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "canaksuga@gmail.com",
+    YOUR_FONE: "(06) 52 40 93 24",
+    description: "If you have any questions, concerns, or just want to say hello, please feel free to contact us using the form below or through the provided contact information.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
